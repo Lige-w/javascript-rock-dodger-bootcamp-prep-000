@@ -122,7 +122,7 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval)
 
-  $('rock').remove()
+  `${'rock'}`.remove()
 
   document.removeEventListener('keydown', moveDodger)
 
