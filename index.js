@@ -165,7 +165,7 @@ function moveDodgerLeft() {
     dodger.style.left = `${left - 4}px`
   }
 }
-}
+
 
 function moveDodgerRight() {
   // implement me!
@@ -180,7 +180,7 @@ function moveDodgerRight() {
     dodger.style.right = `${left - 4}px`
   }
 }
-}
+
 
 /**
  * @param {string} p The position property
