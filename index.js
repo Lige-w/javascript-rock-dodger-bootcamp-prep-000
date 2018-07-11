@@ -123,7 +123,7 @@ function endGame() {
   clearInterval(gameInterval)
 
   ROCKS.forEach(function(rock) {
-    rock.Remove()
+    rock.remove()
   })
 
   document.removeEventListener('keydown', moveDodger)
